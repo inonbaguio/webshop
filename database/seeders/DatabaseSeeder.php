@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
     {
         Product::factory(4)
             ->hasVariants(5)
+            ->hasImages(3)
             ->create();
 
     }
